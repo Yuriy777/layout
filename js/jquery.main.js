@@ -225,7 +225,7 @@ $(document).ready(function() {
             var bdy = document.querySelector('body');
             var doc = document.documentElement;
 
-              if(bdy.scrollTop > 270 || doc.scrollTop > 270) {
+              if(bdy.scrollTop > 500 || doc.scrollTop > 500) {
                 topButton.classList.add('show');
               } else {
                 topButton.classList.remove('show');
